@@ -38,5 +38,9 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+
+```
 Demo https://rab-app.netlify.app/
+```
+
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
