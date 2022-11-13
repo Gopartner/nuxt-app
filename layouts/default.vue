@@ -12,7 +12,7 @@
 						<nuxt-link to="/about">About</nuxt-link>
 					</li>
 					<li>
-						<nuxt-link to="/products">Products</nuxt-link>
+						<nuxt-link to="/products">RAB Design</nuxt-link>
 					</li>
 				</ul>
 			</nav>
