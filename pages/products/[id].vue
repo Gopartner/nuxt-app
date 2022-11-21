@@ -36,8 +36,7 @@
 const { id } = useRoute().params
 
 definePageMeta({
-    // layout: 'products' (gak pakai s)
-    layouts: 'products'
+    layout: 'products'
 })
 </script>
 

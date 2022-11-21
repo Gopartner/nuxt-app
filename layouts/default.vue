@@ -3,16 +3,22 @@
 		<header class="shadow-sm bg-white">
 
 			<nav class="container mx-auto p-4 flex justify-between">
-				<nuxt-link to="/" class="font-bold">Layouts/default.vue</nuxt-link>
+				<h1 class="sm:text-xl font-bold hover:bg-blue-700 border-spacing-2">
+					<nuxt-link to="/">RAB Design</nuxt-link>
+				</h1>
+
 				<ul>
-					<li>
+					<!-- <li>
 						<nuxt-link to="/">Home</nuxt-link>
-					</li>
+					</li> -->
 					<li>
 						<nuxt-link to="/about">About</nuxt-link>
 					</li>
 					<li>
-						<nuxt-link to="/products">RAB Design</nuxt-link>
+						<nuxt-link to="/products">Products</nuxt-link>
+					</li>
+					<li>
+						<nuxt-link to="/rab">RAB Design</nuxt-link>
 					</li>
 				</ul>
 			</nav>

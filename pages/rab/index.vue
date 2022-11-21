@@ -2,7 +2,8 @@
 	<div>
 		<div class='judul'>
 			<div class='at-judul'>
-				<h1>Products</h1>
+				<h1>RAB Design</h1>
+				<p>rab/index.vue</p>
 			</div>
 		</div>
 		<hr style="height:3px; background-color: lightblue;">
@@ -10,19 +11,19 @@
 			<div class='at-item'>
 				<ul>
 					<li>
-						<nuxt-link to="/products/Jalan rabat beton trasier">Jalan rabat beton trasier</nuxt-link>
+						<nuxt-link to="/rab/kategori 1 gedung">kategori 1 gedung</nuxt-link>
 					</li>
 					<li>
-						<nuxt-link to="/products/Jalan rabat beton wiremes">Jalan rabat beton wiremes</nuxt-link>
+						<nuxt-link to="/rab/kategori 2 jalan">kategori 2 jalan</nuxt-link>
 					</li>
 					<li>
-						<nuxt-link to="/products/Jalan rabat beton molen">Jalan rabat beton molen</nuxt-link>
+						<nuxt-link to="/rab/kategori 3 kramik">kategori 3 kramik</nuxt-link>
 					</li>
 					<li>
-						<nuxt-link to="/products/Jalan rabat beton manual">Jalan rabat beton manual</nuxt-link>
+						<nuxt-link to="/rab/kategori 4 gorong-gorong">kategori 4 gorong-gorong</nuxt-link>
 					</li>
 					<li>
-						<nuxt-link to="/products/Jalan rabat beton">Jalan rabat beton</nuxt-link>
+						<nuxt-link to="/rab/kategori 5 jembatan titian">kategori 5 jembatan titian</nuxt-link>
 					</li>
 				</ul>
 			</div>
@@ -32,7 +33,7 @@
 
 <script setup>
 definePageMeta({
-	layout: 'products'
+	layout: 'rab'
 })
 </script>
 
@@ -99,7 +100,7 @@ div.judul {
 .at-judul {
 	color: #3079ed;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 12px;
 
 	animation-name: focus-in-contract;
 	animation-duration: 1.2s;
